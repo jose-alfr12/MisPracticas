@@ -1,4 +1,3 @@
-package Ejercicios;
 import java.util.Scanner;
 public class CajeroAutomatico {
     public static void main(String[] args) {

@@ -1,4 +1,3 @@
-package Ejercicios;
 import java.util.*;
 public class bandera {
 public static void main(String[] args) {

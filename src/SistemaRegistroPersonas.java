@@ -1,5 +1,3 @@
-package Ejercicios;
-
 import java.util.Scanner;
 
 public class SistemaRegistroPersonas {
@@ -14,6 +12,7 @@ public class SistemaRegistroPersonas {
         char genero;
         int opcion;
         int i;
+        boolean encontrado;
 
         do {
             System.out.println("----SISTEMA DE REGISTRO DE PERSONAS----");
@@ -51,7 +50,7 @@ public class SistemaRegistroPersonas {
                     edad = consola.nextInt();
                     System.out.println("--Personas con la edad de " + edad + "--");
 
-                    boolean encontrado = false;
+                     encontrado = false;
 
                     for (i = 0; i < edades.length; i++) {
                         if (edades[i] == edad) {
